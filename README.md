@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://laravel.com/img/logomark.min.svg" width="100" alt="Laravel Logo">
   <h1 align="center">Laravel API Starter Kit</h1>
-  <p align="center">Production-ready API foundation with comprehensive authentication system</p>
+  <p align="center">Production-ready API foundation with JWT authentication system</p>
 </p>
 
 ## 📌 Introduction
@@ -12,40 +12,33 @@ A robust Laravel starter kit featuring:
 
 - **JWT Authentication** (Register, Login, Logout, Profile)
 - **OTP Verification** via Email
-- **Social Authentication** (Google, GitHub, Facebook)
-- **Admin Panel** with User Management
+- **Admin Dashboard**
 - **API Documentation** (Postman Collection included)
-- **Pre-configured CI/CD** setup
 
 ## ✨ Features
 
 ### Authentication System
 - User registration with email verification
 - JWT-based authentication
-- Social login integration
 - Password reset via OTP
-- Role-based access control
+- Email verification workflow
 
-### Admin Panel
-- User management (CRUD operations)
-- System monitoring
+### Admin Dashboard
+- User management interface
+- System information
 - Profile settings
-- Activity logs
 
 ### Developer Experience
 - Clean, modular codebase
 - API documentation
 - Postman collection
-- Docker support
-- CI/CD configuration
 
 ## 🛠️ Installation
 
 ### Prerequisites
 - PHP 8.1+
 - Composer 2.0+
-- MySQL 5.7+/MariaDB 10.3+
-- Node.js 16+ (for frontend assets)
+- MySQL 5.7+
 
 ### Setup Instructions
 
@@ -57,7 +50,6 @@ Install dependencies:
 
 bash
 composer install
-npm install
 Configure environment:
 
 bash
@@ -84,32 +76,16 @@ URL: http://127.0.0.1:8000/admin
 
 Email: admin@admin.com
 
-Password: Secret123
+Password: 12345678
 
-User Access
-URL: http://127.0.0.1:8000/login
+Regular User
+Email: user@user.com
 
-Email: user@example.com
-
-Password: Password123
+Password: 12345678
 
 📚 Documentation
-API Documentation
+Postman Collection: API_Collection/laravel-api-starter.json
 
-Postman Collection
-
-Development Guide
-
-🚀 Deployment
-Traditional Deployment
-bash
-php artisan optimize
-php artisan config:cache
-php artisan route:cache
-php artisan view:cache
-Docker Deployment
-bash
-docker-compose up -d
 🤝 Contributing
 We welcome contributions! Please follow these steps:
 
@@ -127,7 +103,4 @@ Open a Pull Request
 Maintainer: Faheem2407
 Email: faheem24072000@gmail.com
 
-📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-<p align="center"> Made with ❤️ by <a href="https://github.com/Faheem2407">Faheem Ahmed</a> </p> ```
+<p align="center"> Crafted with ❤️ by <a href="https://github.com/Faheem2407">Faheem2407</a> </p> ```
